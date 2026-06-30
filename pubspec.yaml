@@ -1,0 +1,65 @@
+name: nobetci_eczane
+description: "Nöbetçi Eczane - İlaç sorgulama ve eczane bulma uygulaması"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Harita
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # Konum
+  geolocator: ^13.0.2
+
+  # HTTP
+  dio: ^5.7.0
+
+  # Fotoğraf
+  image_picker: ^1.1.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # İzinler
+  permission_handler: ^11.4.0
+
+  # Ortam değişkenleri
+  flutter_dotenv: ^5.2.1
+
+  # URL / WhatsApp
+  url_launcher: ^6.3.1
+
+  # Yerel depolama (sorgu geçmişi)
+  shared_preferences: ^2.3.5
+
+  # ID üretimi
+  uuid: ^4.5.1
+
+  # Tarih formatlama
+  intl: ^0.20.2
+
+  # HTTP (Overpass API için)
+  http: ^1.2.2
+
+  # Firebase
+  firebase_core: ^3.13.0
+  firebase_database: ^11.3.4
+  firebase_auth: ^5.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
